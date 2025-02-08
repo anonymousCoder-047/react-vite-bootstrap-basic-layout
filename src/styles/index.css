@@ -1,0 +1,26 @@
+
+@font-face {
+  font-family: "Centrale Sans Bold", sans-serif;
+  src: url("./fonts/CentraleSans-Bold.ttf") format('trurtype');
+}
+
+@font-face {
+  font-family: "Centrale Sans Medium", sans-serif;
+  src: url("./fonts/CentraleSans-Medium.ttf") format('trurtype');
+}
+
+@font-face {
+  font-family: "Centrale Sans Regular", sans-serif;
+  src: url("./fonts/CentraleSansRegular.otf") format('opentype');
+}
+
+html, body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Centrale Sans Regular", sans-serif;
+  font-weight: "medium";
+}
